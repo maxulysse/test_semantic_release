@@ -1,0 +1,21 @@
+{
+  "name": "test_semantic_release",
+  "version": "0.0.0-development",
+  "description": "Test repository for semantic-release and conventional-commits",
+  "private": true,
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "semantic-release": "^24.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxulysse/test_semantic_release.git"
+  },
+  "author": "Maxime U Garcia",
+  "license": "MIT"
+}
